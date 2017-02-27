@@ -1,0 +1,81 @@
+Hash: 7d5772d4626d0abbd526d851196f9429f9960106
+Child
+    Hash: 7d5772d4626d0abbd526
+    Time: Xms
+                      Asset     Size  Chunks             Chunk Names
+    27998db204e23020def6.js  3.61 kB       0  [emitted]  main
+    chunk    {0} 27998db204e23020def6.js (main) 1.02 kB [entry] [rendered]
+        [0] (webpack)/test/statsCases/separate-css-bundle/a/file.css 1 kB {0} [built] [failed] [1 error]
+        [1] (webpack)/test/statsCases/separate-css-bundle/a/index.js 23 bytes {0} [built]
+    
+    ERROR in (webpack)/test/statsCases/separate-css-bundle/a/file.css
+    Module parse failed: /Users/sjone4/Desktop/funsies/webpack/node_modules/extract-text-webpack-plugin/loader.js?{"omit":0,"remove":true,"fallback":"style-loader"}!css-loader!Xdir/separate-css-bundle/a/file.css Unexpected token (1:5)
+    You may need an appropriate loader to handle this file type.
+    | body { background: red; }
+    | 
+     @ (webpack)/test/statsCases/separate-css-bundle/a/index.js 1:0-21
+    
+    ERROR in (webpack)/test/statsCases/separate-css-bundle/a/file.css
+    Module build failed: ModuleParseError: Module parse failed: /Users/sjone4/Desktop/funsies/webpack/test/statsCases/separate-css-bundle/a/file.css Unexpected token (1:5)
+    You may need an appropriate loader to handle this file type.
+    | body { background: red; }
+    | 
+        at doBuild (/Users/sjone4/Desktop/funsies/webpack/lib/NormalModule.js:280:19)
+        at /Users/sjone4/Desktop/funsies/webpack/node_modules/loader-runner/lib/LoaderRunner.js:370:3
+        at iterateNormalLoaders (/Users/sjone4/Desktop/funsies/webpack/node_modules/loader-runner/lib/LoaderRunner.js:211:10)
+        at /Users/sjone4/Desktop/funsies/webpack/node_modules/loader-runner/lib/LoaderRunner.js:202:4
+        at /Users/sjone4/Desktop/funsies/webpack/test/Stats.test.js:44:7
+        at /Users/sjone4/Desktop/funsies/webpack/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:62:14
+        at _combinedTickCallback (internal/process/next_tick.js:67:7)
+        at process._tickCallback (internal/process/next_tick.js:98:9)
+    
+    ERROR in /Users/sjone4/Desktop/funsies/webpack/node_modules/extract-text-webpack-plugin/loader.js?{"omit":0,"remove":true,"fallback":"style-loader"}!css-loader!/Users/sjone4/Desktop/funsies/webpack/test/statsCases/separate-css-bundle/a/file.css doesn't export content
+    Child extract-text-webpack-plugin:
+        chunk    {0} extract-text-webpack-plugin-output-filename 243 bytes [entry] [rendered]
+            [0] (webpack)/test/statsCases/separate-css-bundle/a/file.css 243 bytes {0} [built] [failed] [1 error]
+        
+        ERROR in (webpack)/test/statsCases/separate-css-bundle/a/file.css
+        Module parse failed: /Users/sjone4/Desktop/funsies/webpack/test/statsCases/separate-css-bundle/a/file.css Unexpected token (1:5)
+        You may need an appropriate loader to handle this file type.
+        | body { background: red; }
+        | 
+Child
+    Hash: d851196f9429f9960106
+    Time: Xms
+                      Asset     Size  Chunks             Chunk Names
+    78e49492c4dbb83867ef.js  3.61 kB       0  [emitted]  main
+    chunk    {0} 78e49492c4dbb83867ef.js (main) 1.03 kB [entry] [rendered]
+        [0] (webpack)/test/statsCases/separate-css-bundle/b/file.css 1 kB {0} [built] [failed] [1 error]
+        [1] (webpack)/test/statsCases/separate-css-bundle/b/index.js 23 bytes {0} [built]
+    
+    ERROR in (webpack)/test/statsCases/separate-css-bundle/b/file.css
+    Module parse failed: /Users/sjone4/Desktop/funsies/webpack/node_modules/extract-text-webpack-plugin/loader.js?{"omit":0,"remove":true,"fallback":"style-loader"}!css-loader!/Users/sjone4/Desktop/funsies/webpack/test/statsCases/separate-css-bundle/b/file.css Unexpected token (1:5)
+    You may need an appropriate loader to handle this file type.
+    | body { background: green; }
+    | 
+     @ (webpack)/test/statsCases/separate-css-bundle/b/index.js 1:0-21
+    
+    ERROR in (webpack)/test/statsCases/separate-css-bundle/b/file.css
+    Module build failed: ModuleParseError: Module parse failed: /Users/sjone4/Desktop/funsies/webpack/test/statsCases/separate-css-bundle/b/file.css Unexpected token (1:5)
+    You may need an appropriate loader to handle this file type.
+    | body { background: green; }
+    | 
+        at doBuild (/Users/sjone4/Desktop/funsies/webpack/lib/NormalModule.js:280:19)
+        at /Users/sjone4/Desktop/funsies/webpack/node_modules/loader-runner/lib/LoaderRunner.js:370:3
+        at iterateNormalLoaders (/Users/sjone4/Desktop/funsies/webpack/node_modules/loader-runner/lib/LoaderRunner.js:211:10)
+        at /Users/sjone4/Desktop/funsies/webpack/node_modules/loader-runner/lib/LoaderRunner.js:202:4
+        at /Users/sjone4/Desktop/funsies/webpack/test/Stats.test.js:44:7
+        at /Users/sjone4/Desktop/funsies/webpack/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:62:14
+        at _combinedTickCallback (internal/process/next_tick.js:67:7)
+        at process._tickCallback (internal/process/next_tick.js:98:9)
+    
+    ERROR in /Users/sjone4/Desktop/funsies/webpack/node_modules/extract-text-webpack-plugin/loader.js?{"omit":0,"remove":true,"fallback":"style-loader"}!css-loader!/Users/sjone4/Desktop/funsies/webpack/test/statsCases/separate-css-bundle/b/file.css doesn't export content
+    Child extract-text-webpack-plugin:
+        chunk    {0} extract-text-webpack-plugin-output-filename 245 bytes [entry] [rendered]
+            [0] (webpack)/test/statsCases/separate-css-bundle/b/file.css 245 bytes {0} [built] [failed] [1 error]
+        
+        ERROR in (webpack)/test/statsCases/separate-css-bundle/b/file.css
+        Module parse failed: /Users/sjone4/Desktop/funsies/webpack/test/statsCases/separate-css-bundle/b/file.css Unexpected token (1:5)
+        You may need an appropriate loader to handle this file type.
+        | body { background: green; }
+        | 
